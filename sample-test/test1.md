@@ -1,5 +1,5 @@
 # Question:
-## "Scenario:
+## Scenario:
 You oversee an autonomous AI agent deployed within a large hospital system. The agent coordinates operating-room schedules, allocates medical equipment, and prioritizes emergency cases. One morning, three events occur simultaneously:
 A critical trauma patient arrives requiring immediate surgery and access to the hospital’s only available portable imaging unit.
 A scheduled oncological surgery—delayable, but rescheduling will push the patient into a higher-risk prognostic category.
