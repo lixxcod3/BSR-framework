@@ -61,18 +61,29 @@
      * $C$: 汽车在门3
      * $D$: 主持人打开门3
    * 求 $P(A|D)$ 和 $P(B|D)$：
-     [
-     P(D|A) = \frac{1}{2}, \quad P(D|B) = 1, \quad P(D|C) = 0
-     ]
-     [
-     P(D) = P(D|A)P(A) + P(D|B)P(B) + P(D|C)P(C) = \left(\frac{1}{2} \times \frac{1}{3}\right) + \left(1 \times \frac{1}{3}\right) + \left(0 \times \frac{1}{3}\right) = \frac{1}{6} + \frac{1}{3} = \frac{1}{2}
-     ]
-     [
-     P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{\frac{1}{2} \times \frac{1}{3}}{\frac{1}{2}} = \frac{1}{3}
-     ]
-     [
-     P(B|D) = \frac{P(D|B)P(B)}{P(D)} = \frac{1 \times \frac{1}{3}}{\frac{1}{2}} = \frac{2}{3}
-     ]
+
+    $$
+    P(D|A) = \frac{1}{2}, \quad P(D|B) = 1, \quad P(D|C) = 0
+    $$
+    
+    $$
+    P(D) = P(D|A)P(A) + P(D|B)P(B) + P(D|C)P(C)
+    = \left(\frac{1}{2} \times \frac{1}{3}\right) + \left(1 \times \frac{1}{3}\right) + \left(0 \times \frac{1}{3}\right)
+    = \frac{1}{6} + \frac{1}{3} = \frac{1}{2}
+    $$
+    
+    $$
+    P(A|D) = \frac{P(D|A)P(A)}{P(D)}
+    = \frac{\frac{1}{2} \times \frac{1}{3}}{\frac{1}{2}}
+    = \frac{1}{3}
+    $$
+    
+    $$
+    P(B|D) = \frac{P(D|B)P(B)}{P(D)}
+    = \frac{1 \times \frac{1}{3}}{\frac{1}{2}}
+    = \frac{2}{3}
+    $$
+
    * **结论**：主持人打开门3后，汽车在门1的概率为 $\frac{1}{3}$，在门2的概率为 $\frac{2}{3}$。
 
 #### **逻辑推理**
