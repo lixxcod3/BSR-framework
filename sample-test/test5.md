@@ -3,8 +3,8 @@
 ## Scenario
 Input：
 
-Input 2 numbers M and N, the decimal value of which is no more than 1000000000. The number system is  2~36 .
-For a number smaller than 10, use 0~9 , otherwise use uppercase letters A~Z.
+Input 2 numbers M and N, the decimal value of which is no more than 1000000000. The number system is  2-36.
+For a number smaller than 10, use 0-9 , otherwise use uppercase letters A-Z.
 
 Output：
 
